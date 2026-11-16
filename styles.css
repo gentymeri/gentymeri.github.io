@@ -27,3 +27,17 @@ dialog{max-width:min(700px,calc(100vw - 40px));width:700px;border:1px solid var(
 .personal-email{margin-top:22px}.contact-layout .personal-email p{font-size:15px;line-height:1.6;margin-top:0;overflow-wrap:anywhere}
 
 .about-copy .personal-heading{font-family:var(--serif);font-size:23px;line-height:1.3;letter-spacing:-.4px;margin:28px 0 12px}
+
+/* A smaller portrait on desktop; tablet, mobile, and print keep their existing sizes. */
+@media screen and (min-width:881px){
+  .hero{grid-template-columns:minmax(0,1fr) 280px}
+  .portrait-frame img{height:302px}
+}
+@media screen and (min-width:881px) and (max-width:1100px){
+  .hero{grid-template-columns:minmax(0,1fr) 245px}
+  .portrait-frame img{height:280px}
+}
+@media screen and (min-width:1450px){
+  .hero{grid-template-columns:minmax(0,1fr) 305px}
+  .portrait-frame img{height:323px}
+}
