@@ -22,3 +22,6 @@ dialog{max-width:min(700px,calc(100vw - 40px));width:700px;border:1px solid var(
 .authors{font-size:11px}.venue{font-size:10px}.hero-copy .eyebrow{font-size:10px}.topic-line{font-size:9px}.project-tag br::after{content:""}
 @media(max-width:700px){.project-tag{display:flex;gap:12px;flex-wrap:wrap}.project-tag br{display:block;width:0}}
 @media(max-width:450px){.hero-copy .eyebrow{font-size:9px}.contact-layout h2{font-size:35px}}
+
+/* Personal contact address, displayed in the owner’s preferred format. */
+.personal-email{margin-top:22px}.contact-layout .personal-email p{font-size:15px;line-height:1.6;margin-top:0;overflow-wrap:anywhere}

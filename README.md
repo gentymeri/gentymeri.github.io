@@ -1,4 +1,4 @@
-# Dr. Gent Ymeri — personal website
+# Gent Ymeri — personal website
 
 A responsive academic website for **https://gentymeri.github.io/**. Plain HTML, CSS, and JavaScript; no package installation, framework, or paid service required.
 
@@ -48,6 +48,7 @@ Official setup documentation: [Creating a GitHub Pages site](https://docs.github
 - **CV:** replace `assets/gent-ymeri-cv.pdf` with your latest PDF, keeping the filename. The homepage and contact links use it, and the build includes it automatically. To publish this update from `github-pages/`, run `git add index.html README.md assets/gent-ymeri-cv.pdf`, then `git commit -m "Add downloadable CV"` and `git push`.
 - **Portrait:** replace `assets/gent-ymeri.jpg`; keep its filename or update the HTML, social metadata, and structured data.
 - **Publication citations:** update `assets/publications.bib`. Each publication's `data-key` and citation button's `data-cite` must match its BibTeX key. Add a publication by copying an existing `<article class="publication">`; set `data-type` to `journal` or `conference`.
+- **Personal email:** edit the `.personal-email` block in `index.html`. It displays `gentymeriwork [at] gmail [dot] com` as plain text alongside the university contact address.
 - **Email:** update the visible address and `mailto:` link in `index.html`, the copy address in `script.js`, and the structured data in the HTML head.
 - **Site address:** if changing the repository or domain, update the canonical, Open Graph, structured data, `sitemap.xml`, `robots.txt`, and the absolute homepage link in `404.html`.
 
@@ -57,7 +58,7 @@ The site uses system fonts and a locally stored portrait. It has no third-party 
 
 ## Content sources
 
-Public records were checked on 11 November 2026. The owner confirmed the display name **Dr. Gent Ymeri**, the general title **Researcher**, a completed PhD, and interest in postdoctoral or other research positions. No specific current employment title is displayed.
+Public records were checked on 11 November 2026. The owner confirmed the display name **Gent Ymeri**, the general title **Researcher**, a completed PhD, and interest in postdoctoral or other research positions. No specific current employment title is displayed.
 
 - [Malmö University profile](https://mau.se/en/persons/gent.ymeri/) — research interests, contact, university portrait. The portrait remains subject to its original rights; no general image licence is asserted here.
 - [DiVA publication record](https://mau.diva-portal.org/smash/person.jsf?pid=authority-person%3A101179) — publication metadata, thesis title, defence date, supervisors, licentiate thesis.
