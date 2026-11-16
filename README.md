@@ -45,6 +45,7 @@ Official setup documentation: [Creating a GitHub Pages site](https://docs.github
 
 - **Biography, research, publications, PhD, projects, media, contact:** edit the labelled sections of `index.html`.
 - **Colours, spacing, responsive layout:** edit `styles.css`. The palette is defined at the top.
+- **CV:** replace `assets/gent-ymeri-cv.pdf` with your latest PDF, keeping the filename. The homepage and contact links use it, and the build includes it automatically. To publish this update from `github-pages/`, run `git add index.html README.md assets/gent-ymeri-cv.pdf`, then `git commit -m "Add downloadable CV"` and `git push`.
 - **Portrait:** replace `assets/gent-ymeri.jpg`; keep its filename or update the HTML, social metadata, and structured data.
 - **Publication citations:** update `assets/publications.bib`. Each publication's `data-key` and citation button's `data-cite` must match its BibTeX key. Add a publication by copying an existing `<article class="publication">`; set `data-type` to `journal` or `conference`.
 - **Email:** update the visible address and `mailto:` link in `index.html`, the copy address in `script.js`, and the structured data in the HTML head.
